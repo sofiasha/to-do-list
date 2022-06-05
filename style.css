@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(120deg,#e6e6ff, #b3b3ff);
+    background-image: linear-gradient(120deg,#e6e6ff, #827397);
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -27,17 +27,18 @@ form input, form button {
     font-size: 2rem;
     border: none;
     background: white;
+    color: #363062;
 }
 
 form button {
-    color: #9999ff;
+    color: #4D4C7D;
     background:white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover {
-    background: #9999ff;
+    background: #4D4C7D;
     color: white;
 }
 
@@ -61,36 +62,39 @@ form button:hover {
     justify-content: space-between;
     align-items: center;
     transition: all 0.7s ease;
+    color: #363062;
+    font-family: "Poppins", sans-serif;
 }
 
 .todo li {
     flex: 1;
+    color: #363062;
+    font-family: "Poppins", sans-serif;
 }
 
 .trash-btn, .complete-btn{
-    background: #db708b;
+    background: #755070;
     color:white;
     border: 1.5px double white;
     padding: 1rem;
     cursor: pointer;
     font-size: 1rem;
     transition: all 0.3s ease;
-    
 }
 
 .trash-btn:hover {
     background: white;
-    color: #db708b;
+    color: #755070;
 }
 
 .complete-btn {
-    background: #7d7de8;
+    background: #4D4C7D;
     border: 1.5px double white;
 }
 
 .complete-btn:hover {
     background: white;
-    color: #7d7de8;
+    color: #4D4C7D;
 }
 
 .todo-item {
@@ -104,6 +108,7 @@ form button:hover {
 .completed {
     text-decoration: line-through;
     opacity: 0.5;
+    
 }
 
 .fall {
@@ -122,14 +127,13 @@ select {
     background-image: none;
   }
   
-  /* Custom Select */
   .select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
   }
   select {
-    color: #9999ff;
+    color: #4D4C7D;
     font-family: "Poppins", sans-serif;
     font-size: 0.8rem;;
     cursor: pointer;
@@ -144,7 +148,7 @@ select {
     top: 0;
     right: 0;
     padding: 1rem;
-    background: #9999ff;
+    background: #4D4C7D;
     cursor: pointer;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -152,5 +156,20 @@ select {
 
   .select:hover::after {
     background: white;
-    color: #9999ff;
+    color: #4D4C7D;
+  }
+
+  .pic {
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+
+  h1 {
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #c0b5c7, 
+      7px 7px 0px rgba(0, 0, 0, 0.1);
   }
